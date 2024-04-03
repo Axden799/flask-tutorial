@@ -16,6 +16,7 @@
 <section>
     <header>
         {% block header %}{% endblock %}
+        <link rel="shortcut icon" href="#">
     </header>
     {% for message in get_flashed_messages() %}
     <div class="flash">{{ message }}</div>
